@@ -1,0 +1,194 @@
+li {
+    list-style: none;
+    font-family: Lato, sans-serif;
+    font-size: 15px;
+
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    background: linear-gradient(to right, rgba(245, 245, 245, 0.8),
+            rgba(245, 245, 245, 0.8)), url(https://www.rammaheshwari.com/assets/svg/common-bg.svg);
+            p {
+                font-size: 19px;
+            }
+}
+
+h1 {
+    text-align: center;
+    animation: lol 5s infinite alternate;
+
+}
+
+@keyframes lol {
+    0% {
+        color: beige;
+    }
+}
+
+.P1 {
+    text-align: center;
+
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+button {
+    align-self: center;
+    width: fit-content;
+    border-radius: 15px;
+    box-shadow: 0 10px 12px rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    animation: lol 5s infinite alternate;
+
+
+}
+
+@keyframes lol {
+    0% {
+        color: beige; 
+    }
+}
+
+.h2P {
+    margin-left: 130px;
+}
+
+img {
+    width: 600px;
+
+
+}
+
+.divIMG {
+    width: 600px;
+
+}
+
+.divIMG h2 {
+    text-align: center;
+}
+
+#section2 {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+#section3 {
+    max-width: 880px;
+    margin: 64px auto;
+
+    div {
+        color: #AB6400;
+        margin-bottom: 15px;
+        border: #a52a2a63 solid 1px;
+        padding: 28px;
+        border-radius: 4px;
+        background: #FFF7C2;
+
+    }
+}
+
+
+
+.p-article {
+    height: 50px;
+    font-size: 19px;
+}
+
+.p-service {
+    text-align: center;
+    font-size: 18px;
+    margin: 0;
+    font-family: "Parkinsans", sans-serif;
+}
+
+.h4P {
+    text-align: center;
+    font-size: 25px;
+    margin: 0 0 16px 0;
+    line-height: 1;
+    animation: lol 5s infinite alternate;
+
+    
+}
+
+@keyframes lol {
+    0% {
+        color: rgba(245, 245, 220, 0.525); 
+    }
+}
+
+.h4-témoignage {
+    text-align: center;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.p5-commentaire {
+    text-align: center;
+    padding: 22px;
+    font-size: 20px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.p4-typeExp {
+    text-align: center;
+    padding: 22px;
+    font-size: 18px;
+    font-family: "Source Code Pro", monospace;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: wheat;
+}
+
+footer {
+    background-color: black;
+
+    p {
+        color: white;
+    }
+
+    h2 {
+        color: white;
+    }
+}
+
+#footerTitre {
+    display: flex;
+    justify-content: center;
+}
+
+#footerSocial {
+    display: flex;
+    justify-content: right;
+
+    p {
+        margin-right: 50px;
+        font-size: 18px;
+    }
+}
+
+.fa-brands {
+    color: white;
+}
